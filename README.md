@@ -90,3 +90,11 @@ Bash
     meson setup build -Dprefix=/usr
     ninja -C build
     sudo ninja -C build install
+
+
+
+REBOOT
+
+`sudo reboot`
+
+Enjoy your caps lock experience !
