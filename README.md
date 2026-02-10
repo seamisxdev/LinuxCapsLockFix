@@ -5,7 +5,7 @@ By default in Linux, Caps Lock behaves like a traditional typewriter; it is enga
 
 This behavior differs from Windows or macOS, where Caps Lock disengages as soon as it is pressed a second time. In those systems, even if you hold the key during the second press, the input remains lowercase. In Linux, this can lead to a frustrating experience—such as typing "CAps LOck" instead of "Caps Lock" when typing quickly—and it cannot be resolved simply by asking users to change their muscle memory.
 
-A computer is not a typewriter, and Linux should match the behavior of Windows and macOS.
+Linux should match the behavior of Windows and macOS.
 
 The Fix:
 The fix currently fails the automatic checks, so it should be considered experimental. However, based on my testing, all keyboard keys are working properly.
