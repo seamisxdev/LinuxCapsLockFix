@@ -1,9 +1,10 @@
 This fixes the infamous CAps lock issue in Linux.
 
 The Issue:
+
 By default in Linux, Caps Lock behaves like a traditional typewriter; it is engaged upon pressing the key but only disengaged after the key is released during the second press.
 
-This behavior differs from Windows or macOS, where Caps Lock disengages as soon as it is pressed a second time. In those systems, even if you hold the key during the second press, the input remains lowercase. In Linux, this can lead to a frustrating experience—such as typing "CAps LOck" instead of "Caps Lock" when typing quickly—and it cannot be resolved simply by asking users to change their muscle memory.
+This behavior differs from Windows or macOS, where Caps Lock disengages as soon as it is pressed a second time. In those systems, even if you hold the key during the second press, the input remains lowercase. In Linux, this can lead to a frustrating experience—such as typing "CAps LOck" instead of "Caps Lock" when typing quickly—and it cannot be resolved simply by asking users to change their muscle memory to use Shift instead
 
 Linux should match the behavior of Windows and macOS.
 
